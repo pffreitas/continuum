@@ -1,0 +1,130 @@
+        body {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .config_key {
+            margin-bottom: 2px;
+        }
+
+        .config_key_description {
+            margin-top: 0px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .key_container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .config_value {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            font-weight: 100;
+            color: #404040;
+        }
+
+        .env-pill {
+            font-size: 0.8rem;
+            background-color: #eee;
+            border-radius: 5px;
+            padding: 3px 5px;
+            min-width: 30px;
+            text-align: center;
+            height: 16px;
+        }
+
+        .zone-pill {
+            font-size: 0.8rem;
+            border-radius: 5px;
+            display: inline-flex;
+            padding: 10px;
+            min-height: 16px;
+            border: 1px solid #ddd;
+        }
+
+        .zone-pill span {
+            margin-left: 5px;
+        }
+
+        .value_container {
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .conditions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 0.8rem;
+            border-radius: 5px;
+            padding: 10px;
+            min-height: 16px;
+            border: 1px solid #ddd;
+        }
+
+        .zone { 
+            display: flex;
+            gap: 7px;
+        }
+
+        .zone img {
+            
+        }
+
+        .env_container ul.conditions-list {
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            margin-top: -5px;
+            gap: 20px;
+        }
+
+        .os-conditions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .flex_container {
+            display: grid;
+            gap: 15px;
+            width: calc(100vw - 420px);
+            margin-left: 420px;
+        }
+
+        .env_container {
+            margin-right: 20px;
+        }
+
+        .env_container ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .env_container li {
+            list-style: none;
+        }
+
+        .value {
+            margin-bottom: 0;
+            font-size: 1.15rem;
+        }
+
+        .menu { 
+            position: fixed;
+            height: 100vh;
+            width: 400px;
+            overflow: scroll;
+            top: 0; 
+            left: 0;
+        }
+
+        .menu ul { 
+            list-style: none;
+            padding: 15px;
+            margin: 0;
+        }
